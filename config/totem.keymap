@@ -101,14 +101,14 @@ label= "NAV"                              ;
 //             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
 //             ┃           ┃     4     ┃     5     ┃     6     ┃     =     ┃   ┃     ]     ┃   LEFT    ┃   DOWN    ┃   RIGHT   ┃     '     ┃
 // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
-// ┃           ┃    BSLH   ┃     1     ┃     2     ┃     3     ┃           ┃   ┃           ┃           ┃           ┃           ┃           ┃           ┃
+// ┃           ┃    BSLH   ┃     1     ┃     2     ┃     3     ┃     ~     ┃   ┃           ┃           ┃           ┃           ┃           ┃           ┃
 // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 //                                     ┃           ┃     0     ┃           ┃   ┃           ┃           ┃           ┃
 //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
-                &kp ESC     &bt BT_CLR  &kp UP      &kp EQUAL    &kp MINUS       &kp LBKT  &kp HOME       &kp UP        &kp END        &trans
+                &kp ESC     &bt N5      &kp N6      &kp N7       &kp MINUS       &kp LBKT  &kp HOME       &kp UP        &kp END        &trans
                 &mt LSHFT A &mt LALT N4 &mt LGUI N5 &mt LCTRL N6 &kp EQUAL       &kp RBKT  &mt RCTRL LEFT &mt RGUI DOWN &mt RALT RIGHT &mt RSHFT SQT
     &trans      &kp BSLH    &kp N1      &kp N2      &kp N3       &kp GRAVE       &trans    &trans         &trans        &trans         &trans       &trans
                                         &trans      &kp N0       &trans          &trans    &trans         &trans      
