@@ -34,7 +34,7 @@
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&kp LC(C)>, <&kp LC(V)>, <&kp LC(X)>;
+            bindings = <&kp LG(C)>, <&kp LG(V)>, <&kp LG(X)>;
         };
     };
 
@@ -108,7 +108,7 @@ label= "NAV"                              ;
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
-                &kp ESC     &kp N5      &kp N6      &kp N7       &kp MINUS       &kp LBKT  &kp HOME       &kp UP        &kp END        &trans
+                &kp ESC     &kp N7      &kp N8      &kp N9       &kp MINUS       &kp LBKT  &kp HOME       &kp UP        &kp END        &trans
                 &mt LSHFT A &mt LALT N4 &mt LGUI N5 &mt LCTRL N6 &kp EQUAL       &kp RBKT  &mt RCTRL LEFT &mt RGUI DOWN &mt RALT RIGHT &mt RSHFT SQT
     &trans      &kp BSLH    &kp N1      &kp N2      &kp N3       &kp GRAVE       &trans    &trans         &trans        &trans         &trans       &trans
                                         &trans      &kp N0       &trans          &trans    &trans         &trans      
