@@ -75,6 +75,16 @@
             key-positions = <4 10>;
             bindings = <&kp LS(T)>;
         };
+        combo_shift_o {
+            timeout-ms = <35>;
+            key-positions = <8 10>;
+            bindings = <&kp LS(O)>;
+        };
+        combo_shift_p {
+            timeout-ms = <35>;
+            key-positions = <9 10>;
+            bindings = <&kp LS(P)>;
+        };
     };
 
     conditional_layers {
