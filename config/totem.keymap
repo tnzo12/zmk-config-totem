@@ -50,28 +50,28 @@
             key-positions = <12 13>;
             bindings = <&kp CAPS>;
         };
-        combo_caps {
-            timeout-ms = <50>;
+        combo_shift_q {
+            timeout-ms = <35>;
             key-positions = <0 10>;
             bindings = <&kp LS(q)>;
         };
-        combo_caps {
-            timeout-ms = <50>;
+        combo_shift_w {
+            timeout-ms = <35>;
             key-positions = <1 10>;
             bindings = <&kp LS(w)>;
         };
-        combo_caps {
-            timeout-ms = <50>;
+        combo_shift_e {
+            timeout-ms = <35>;
             key-positions = <2 10>;
             bindings = <&kp LS(e)>;
         };
-        combo_caps {
-            timeout-ms = <50>;
+        combo_shift_r {
+            timeout-ms = <35>;
             key-positions = <3 10>;
             bindings = <&kp LS(r)>;
         };
-        combo_caps {
-            timeout-ms = <50>;
+        combo_shift_t {
+            timeout-ms = <35>;
             key-positions = <4 10>;
             bindings = <&kp LS(t)>;
         };
