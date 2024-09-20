@@ -53,27 +53,27 @@
         combo_shift_q {
             timeout-ms = <35>;
             key-positions = <0 10>;
-            bindings = <&kp LS(q)>;
+            bindings = <&kp LS(Q)>;
         };
         combo_shift_w {
             timeout-ms = <35>;
             key-positions = <1 10>;
-            bindings = <&kp LS(w)>;
+            bindings = <&kp LS(W)>;
         };
         combo_shift_e {
             timeout-ms = <35>;
             key-positions = <2 10>;
-            bindings = <&kp LS(e)>;
+            bindings = <&kp LS(E)>;
         };
         combo_shift_r {
             timeout-ms = <35>;
             key-positions = <3 10>;
-            bindings = <&kp LS(r)>;
+            bindings = <&kp LS(R)>;
         };
         combo_shift_t {
             timeout-ms = <35>;
             key-positions = <4 10>;
-            bindings = <&kp LS(t)>;
+            bindings = <&kp LS(T)>;
         };
     };
 
