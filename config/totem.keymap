@@ -21,12 +21,9 @@
 #define FUNC  2
 #define SYS  3
 
-&mt {
-  quick-tap-ms = <100>;
-  global-quick-tap;
-  flavor = "tap-preferred";
-  tapping-term-ms = <170>;
-};
+// Home row mods macro
+#define HRML(k1,k2,k3,k4) &ht LSHFT k1  &ht LALT k2  &ht LGUI k3  &ht LCTRL k4
+#define HRMR(k1,k2,k3,k4) &ht LCTRL k1  &ht RGUI k2  &ht RALT k3  &ht RSHFT k4
 
 / {
     behaviors {
@@ -35,6 +32,15 @@
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&kp LG(C)>, <&kp LG(V)>, <&kp LG(X)>;
+        },
+        ht: hold_tap {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <200>;
+            quick-tap-ms = <150>;
+            require-prior-idle-ms = <100>;
+            bindings = <&kp>, <&kp>;
         };
     };
 
@@ -116,7 +122,7 @@ label= "BASE"                              ;
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
                 &kp Q       &kp W       &kp E       &kp R       &kp T           &kp Y       &kp U       &kp I       &kp O       &kp P
-                &mt LSHFT A &mt LALT S  &mt LGUI D  &mt LCTRL F &kp G           &kp H       &mt RCTRL J &mt RGUI K  &mt RALT L  &mt RSHFT SEMI
+                HRML(A,     S,          D,          F)          &kp G           &kp H       HRMR(J,     K,          L,          SEMI)
     &td0        &kp Z       &kp X       &kp C       &kp V       &kp B           &kp N       &kp M       &kp COMMA   &kp DOT     &kp FSLH    &kp BSLH
                                         &kp ESC     &kp TAB     &lt 1 SPACE     &lt 1 ENTER &lt 2 BSPC  &kp DEL
                         >;
